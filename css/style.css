@@ -1,0 +1,76 @@
+body{
+    background-color: rosybrown;
+    font-family: 'Open sans' serif;
+    font-size: 20px;
+}
+/*header section*/
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#search-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 100%;
+    padding: 0px 10px;
+}
+#submit {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 100%;
+    padding: 0px 10px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+.headings {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*main section*/
+main {
+    background-color: green;
+    display:flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 20%;
+    background-color: aqua;
+}
+div.card{
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border: 1px solid black;
+    /*flex-flow: row wrap*/
+}
+div.card:hover{
+    border-color: green;
+}
+div.card img{
+    width: 100%;
+    height: auto;
+
+}
+div.activity-description {
+    padding: 10;
+    text-align: center;
+}
+.btn {
+    background-color: red;
+    border: none;
+    display: flex;
+    border-radius: 5px;
+    margin: 10px 10px 4px 10px;
+    font-size: 100%;
+}
