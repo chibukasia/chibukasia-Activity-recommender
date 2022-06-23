@@ -55,6 +55,15 @@ searchForm.addEventListener('submit', e=>{
                 displayCurrentWeather(weatherData)
                 //console.log(weatherData)
             })
-            .catch("Invalid City name or Town")
+            .catch((error)=>{
+                //document.body.innerHTML = `<h1> Innvalid name for City or Town...refreshing in 3 seconds</h1>`;
+                alert("Invalid name for City or Town. Please enter the a valid name")
+                // setTimeout(function() {
+                    
+                //     location.reload('true')
+                //   }, 3000)
+                  
+                
+            })
     }
 })

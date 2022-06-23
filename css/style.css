@@ -8,6 +8,11 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    background-image: url("../assets/image1.jpg");
+    background-size: cover;
+}
+section{
+    color: white;
 }
 #search-input {
     width: 300px;
