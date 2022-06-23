@@ -35,11 +35,12 @@ section{
 .headings {
     text-align: center;
     text-transform: capitalize;
+    padding: 10px;
 }
 
 /*main section*/
 main {
-    background-color: green;
+    background-color:none;
     display:flex ;
     flex-direction: row;
     justify-content: flex-start;
@@ -52,19 +53,27 @@ aside{
     width: 20%;
     background-color: aqua;
 }
-div.card{
-    width: 200px;
-    float: left;
+#card-section{
+    display: flex;
+    flex: 3;
+    flex-flow: row wrap;
+    padding: 20px 80px;
+}
+.card{
+    display: inline;
+    width: 400px;
+    float: right;
     margin: 10px;
     border: 1px solid black;
-    /*flex-flow: row wrap*/
+    
 }
 div.card:hover{
     border-color: green;
+    opacity: 0.7;
 }
 div.card img{
     width: 100%;
-    height: auto;
+    height: 300px;
 
 }
 div.activity-description {
