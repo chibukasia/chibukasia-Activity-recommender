@@ -1,161 +1,271 @@
 {
-    "activities":{
-        "sunnyActivities": [
-            {
-              "id": 1,
-              "name": "Play showground",
-              "image": "./assets/adventure1.jpeg"
-            },
-            {
-              "id": 2,
-              "name": "paragliding",
-              "image": "./assets/glider_flying.jpeg"
-            },
-            {
-              "id": 3,
-              "name": "Go to the baech",
-              "image": "./assets/beach1.jpg"
-            },
-            {
-              "id": 4,
-              "name": "Sun basking",
-              "image": "./assets/beach.jpeg"
-            },
-            {
-              "id": 5,
-              "name": "Climbing adventure",
-              "image": "./assets/climbing_adventure.jpeg"
-            },
-            {
-              "id": 6,
-              "name": "Fly Hotair baloon",
-              "image": "./assets/hotair_baloon.jpeg"
-            },
-            {
-              "id": 7,
-              "name": "paragliding",
-              "image": "./assets/glider_flying.jpeg"
-            },
-            {
-              "id": 8,
-              "name": "Walk in park",
-              "image": "./assets/walk_in_park.jpg"
-            },
-            {
-              "id": 9,
-              "name": "Go swimming",
-              "image": "./assets/swim.jpeg"
-            },
-            {
-              "id": 10,
-              "name": "Do some sketting",
-              "image": "./assets/sketting.jpeg"
-            }
-          ],
-          "rainyActivities": [
-            {
-              "id": 1,
-              "name": "Stay Indoor",
-              "image": "./assets/stay_indoor.jpeg"
-            },
-            {
-              "id": 2,
-              "name": "Play video games",
-              "image": "./assets/play_games.jpg"
-            },
-            {
-              "id": 3,
-              "name": "Learn cooking",
-              "image": "./assets/learn_to_cook.jpeg"
-            },
-            {
-              "id": 4,
-              "name": "Do some cooking",
-              "image": "./assets/learn_cooking.jpeg"
-            },
-            {
-              "id": 5,
-              "name": "Play with kids",
-              "image": "./assets/play_with_kid.jpeg"
-            },
-            {
-              "id": 6,
-              "name": "Do some reading",
-              "image": "./assets/read.jpg"
-            },
-            {
-              "id": 7,
-              "name": "Take a nap",
-              "image": "./assets/sleep.jpeg"
-            },
-            {
-              "id": 8,
-              "name": "Take a coffee",
-              "image": "./assets/take_coffee.jpeg"
-            },
-            {
-              "id": 9,
-              "name": "Take an umbrella",
-              "image": "./assets/take_umbrella.jpeg"
-            },
-            {
-              "id": 10,
-              "name": "Watch TV",
-              "image": "./assets/watch_tv.jpeg"
-            }
-          ],
-          "snowActivities": [
-            {
-              "id": 1,
-              "name": "Ice Skiing",
-              "image": "./assets/ice_skiing.jpeg"
-            },
-            {
-              "id": 2,
-              "name": "Ice sketting",
-              "image": "./assets/ice_sketting.jpeg"
-            },
-            {
-              "id": 3,
-              "name": "Watch TV",
-              "image": "./assets/watch_tv.jpeg"
-            },
-            {
-              "id": 4,
-              "name": "Stay Indoor",
-              "image": "./assets/stay_indoor.jpeg"
-            },
-            {
-              "id": 5,
-              "name": "Go sledding",
-              "image": "./assets/sledding.jpg"
-            },
-            {
-              "id": 6,
-              "name": "Go snowshoeing",
-              "image": "./assets/snow_shoeing.jpg"
-            },
-            {
-              "id": 7,
-              "name": "Do snow angel",
-              "image": "./assets/snow_angel.jpg"
-            },
-            {
-              "id": 8,
-              "name": "Snowball fight",
-              "image": "./assets/snowball_fight.jpg"
-            },
-            {
-              "id": 9,
-              "name": "Go snowboarding",
-              "image": "./assets/snowboard.jpg"
-            },
-            {
-              "id": 10,
-              "name": "Build snowman",
-              "image": "./assets/snowman.jpg"
-            }
-          ]
-        }
-  
+  "sunnyActivities": [
+    {
+      "id": 1,
+      "name": "Play showground",
+      "image": "./assets/adventure1.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "paragliding",
+      "image": "./assets/glider_flying.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Go to the baech",
+      "image": "./assets/beach1.jpg",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Sun basking",
+      "image": "./assets/beach.jpeg",
+      "likes": 3
+    },
+    {
+      "id": 5,
+      "name": "Climbing adventure",
+      "image": "./assets/climbing_adventure.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "name": "Fly Hotair baloon",
+      "image": "./assets/hotair_baloon.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 7,
+      "name": "Walk in park",
+      "image": "./assets/walk_in_park.jpg",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "name": "Go swimming",
+      "image": "./assets/swim.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 9,
+      "name": "Do some sketting",
+      "image": "./assets/sketting.jpeg",
+      "likes": 0
+    }
+  ],
+  "rainyActivities": [
+    {
+      "id": 1,
+      "name": "Stay Indoor",
+      "image": "./assets/stay_indoor.jpeg",
+      "likes": 2
+    },
+    {
+      "id": 2,
+      "name": "Play video games",
+      "image": "./assets/play_games.jpg",
+      "likes": 1
+    },
+    {
+      "id": 3,
+      "name": "Learn cooking",
+      "image": "./assets/learn_to_cook.jpeg",
+      "likes": 2
+    },
+    {
+      "id": 4,
+      "name": "Do some cooking",
+      "image": "./assets/learn_cooking.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Play with kids",
+      "image": "./assets/play_with_kid.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "name": "Do some reading",
+      "image": "./assets/read.jpg",
+      "likes": 0
+    },
+    {
+      "id": 7,
+      "name": "Take a nap",
+      "image": "./assets/sleep.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "name": "Take a coffee",
+      "image": "./assets/take_coffee.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 9,
+      "name": "Take an umbrella",
+      "image": "./assets/take_umbrella.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 10,
+      "name": "Watch TV",
+      "image": "./assets/watch_tv.jpeg",
+      "likes": 0
+    }
+  ],
+  "snowActivities": [
+    {
+      "id": 1,
+      "name": "Ice Skiing",
+      "image": "./assets/ice_skiing.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Ice sketting",
+      "image": "./assets/ice_sketting.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Watch TV",
+      "image": "./assets/watch_tv.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Stay Indoor",
+      "image": "./assets/stay_indoor.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 5,
+      "name": "Go sledding",
+      "image": "./assets/sledding.jpg",
+      "likes": 0
+    },
+    {
+      "id": 6,
+      "name": "Go snowshoeing",
+      "image": "./assets/snow_shoeing.jpg",
+      "likes": 0
+    },
+    {
+      "id": 7,
+      "name": "Do snow angel",
+      "image": "./assets/snow_angel.jpg",
+      "likes": 0
+    },
+    {
+      "id": 8,
+      "name": "Snowball fight",
+      "image": "./assets/snowball_fight.jpg",
+      "likes": 0
+    },
+    {
+      "id": 9,
+      "name": "Go snowboarding",
+      "image": "./assets/snowboard.jpg",
+      "likes": 0
+    },
+    {
+      "id": 10,
+      "name": "Build snowman",
+      "image": "./assets/snowman.jpg",
+      "likes": 0
+    }
+  ],
+  "rainyAndSnowNightActivities": [
+    {
+      "id": 1,
+      "name": "Sleep",
+      "image": "./assets/sleep.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Learn a new skill",
+      "image": "./assets/learn_new_skills.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Watch TV",
+      "image": "./assets/watch_tv.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Watch a Movie/ Tv Series",
+      "image": "./assets/movie_night.jpg",
+      "likes": 0
+    }
+  ],
+
+  "normalNightActivities": [
+    {
+      "id": 1,
+      "name": "Sleep",
+      "image": "./assets/sleep.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 2,
+      "name": "Learn a new skill",
+      "image": "./assets/learn_new_skills.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "name": "Watch TV",
+      "image": "./assets/watch_tv.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 4,
+      "name": "Watch a Movie/ Tv Series",
+      "image": "./assets/movie_night.jpg",
+      "likes": 0
+    },
+    {
+        "id":5,
+        "name": "Attend Concert",
+        "image":"./assets/attend_concert.jpeg",
+        "likes":0
+    },
+    {
+        "id": 6,
+        "name": "Attend Live theatre",
+        "image":"./assets/live_theatre.jpeg",
+        "likes":0
+    },
+    {
+        "id": 7,
+        "name": "Go night camping",
+        "image": "./assets/night_camping.jpg",
+        "likes":0
+    }, 
+    {
+        "id":8,
+        "name": "Attend night party",
+        "image": "./assets/night_party.jpeg",
+        "likes":0
+    },
+    {
+        "id":9,
+        "name": "Watch football",
+        "image": "./assets/watch_football.jpeg",
+        "likes":0
+    },
+    {
+        "id":10,
+        "name": "Star gazing",
+        "image":"./assets/watch_stars.jpg",
+        "likes":0
+    }
+  ]
 }
