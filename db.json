@@ -10,7 +10,7 @@
       "id": 2,
       "name": "paragliding",
       "image": "./assets/glider_flying.jpeg",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "id": 4,
       "name": "Sun basking",
       "image": "./assets/beach.jpeg",
-      "likes": 3
+      "likes": 9
     },
     {
       "id": 5,
@@ -66,7 +66,7 @@
       "id": 2,
       "name": "Play video games",
       "image": "./assets/play_games.jpg",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 3,
@@ -90,7 +90,7 @@
       "id": 6,
       "name": "Do some reading",
       "image": "./assets/read.jpg",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 7,
@@ -184,19 +184,19 @@
       "id": 1,
       "name": "Sleep",
       "image": "./assets/sleep.jpeg",
-      "likes": 0
+      "likes": 4
     },
     {
       "id": 2,
       "name": "Learn a new skill",
       "image": "./assets/learn_new_skills.jpeg",
-      "likes": 0
+      "likes": 2
     },
     {
       "id": 3,
       "name": "Watch TV",
       "image": "./assets/watch_tv.jpeg",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 4,
@@ -205,13 +205,12 @@
       "likes": 0
     }
   ],
-
   "normalNightActivities": [
     {
       "id": 1,
       "name": "Sleep",
       "image": "./assets/sleep.jpeg",
-      "likes": 0
+      "likes": 5
     },
     {
       "id": 2,
@@ -232,40 +231,40 @@
       "likes": 0
     },
     {
-        "id":5,
-        "name": "Attend Concert",
-        "image":"./assets/attend_concert.jpeg",
-        "likes":0
+      "id": 5,
+      "name": "Attend Concert",
+      "image": "./assets/attend_concert.jpeg",
+      "likes": 0
     },
     {
-        "id": 6,
-        "name": "Attend Live theatre",
-        "image":"./assets/live_theatre.jpeg",
-        "likes":0
+      "id": 6,
+      "name": "Attend Live theatre",
+      "image": "./assets/live_theatre.jpeg",
+      "likes": 3
     },
     {
-        "id": 7,
-        "name": "Go night camping",
-        "image": "./assets/night_camping.jpg",
-        "likes":0
-    }, 
-    {
-        "id":8,
-        "name": "Attend night party",
-        "image": "./assets/night_party.jpeg",
-        "likes":0
+      "id": 7,
+      "name": "Go night camping",
+      "image": "./assets/night_camping.jpg",
+      "likes": 0
     },
     {
-        "id":9,
-        "name": "Watch football",
-        "image": "./assets/watch_football.jpeg",
-        "likes":0
+      "id": 8,
+      "name": "Attend night party",
+      "image": "./assets/night_party.jpeg",
+      "likes": 0
     },
     {
-        "id":10,
-        "name": "Star gazing",
-        "image":"./assets/watch_stars.jpg",
-        "likes":0
+      "id": 9,
+      "name": "Watch football",
+      "image": "./assets/watch_football.jpeg",
+      "likes": 0
+    },
+    {
+      "id": 10,
+      "name": "Star gazing",
+      "image": "./assets/watch_stars.jpg",
+      "likes": 2
     }
   ]
 }
