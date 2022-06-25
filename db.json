@@ -28,7 +28,7 @@
       "id": 5,
       "name": "Climbing adventure",
       "image": "./assets/climbing_adventure.jpeg",
-      "likes": 0
+      "likes": 2
     },
     {
       "id": 6,
@@ -40,7 +40,7 @@
       "id": 7,
       "name": "Walk in park",
       "image": "./assets/walk_in_park.jpg",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 8,
@@ -184,7 +184,7 @@
       "id": 1,
       "name": "Sleep",
       "image": "./assets/sleep.jpeg",
-      "likes": 4
+      "likes": 5
     },
     {
       "id": 2,
